@@ -3,9 +3,12 @@ Typing git init will create a new instance of git in that folder. This allows us
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+The staging area is a place where you can modify and tweak whatever it is you're working on before it gets saved in the repository. Its a good spot in beween the other to to check wha your code does and whether or not it will break.
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+You can use git diff to see how many / what changes you have made in the working and staging area just before you write your commit message. Git diff --staging will show the differences. This ensures the message matches what was actually committed.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
