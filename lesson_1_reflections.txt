@@ -1,0 +1,22 @@
+Reflections- Chapter 5.
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By pointing out each change, it is way easier to see what could have gone wrong. Typos are common, or perhaps the code was modified after being copied--or maybe it just didn't even paste correctly! Having a program tell you the differences makes things go so much easier and faster than trying to find it manually. It's nice to see only the bits that were changed instead of having to see the entire file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Knowing what has changed, each time something is changed, will make it so much easier to spot things that go wrong. It also can help answer questions as time passes--perhaps I won't remember what I changed a month ago, but seeing the exact code will jog my memory. (Hopefully I'll leave a comment too!)
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Cons: It's certainly faster to have things autosave instead of manually commit.
+Pro: Who knows what gets changed when things are autosaved? This is especially useful when multiple people are working on code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A single change might affect multiple files. I think it's good to have multiple files in one commit, but I haven't really seen this yet enough to know why they might do that. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+How might using version control make you more confident to make changes that could break something?
+If it's always possible to go back to a recent save, it's never a problem to try and break things. We can always go back to the time before it was broken and figure out how to NOT break it!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Doing homework, for now :) Eventually, I'd like to learn to make a website.
