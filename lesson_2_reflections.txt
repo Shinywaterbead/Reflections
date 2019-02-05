@@ -23,3 +23,4 @@ All prior commits are saved as well.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+It's great to have all changes automatically merged without any extra effort. When it comes to doing merges manually, you can catch bugs as they crop up, but it can be far more tedious.
