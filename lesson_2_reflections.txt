@@ -18,6 +18,8 @@ They are a literal visualization of the branch structure. They show the relation
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches leaves untouched parts of the code the way they were, and adds or deletes parts to the master. Commits/changes are listed by their timestamps. 
+All prior commits are saved as well.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
